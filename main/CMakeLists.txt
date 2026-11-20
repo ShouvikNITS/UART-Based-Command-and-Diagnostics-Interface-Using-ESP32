@@ -1,0 +1,16 @@
+
+idf_component_register(
+    SRCS
+        "main.c"
+
+    INCLUDE_DIRS
+        "."
+
+    REQUIRES
+        esp_driver_uart
+        esp_driver_gpio
+        esp_timer
+        esp_system
+        heap
+        esp_common
+)

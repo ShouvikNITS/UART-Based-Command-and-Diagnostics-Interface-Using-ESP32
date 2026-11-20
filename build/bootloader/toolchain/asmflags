@@ -1,0 +1,7 @@
+"-specs=C:/Users/LENOVO/Desktop/Embedded_Projects/uart_diagnostics/build/bootloader/specs/picolibc.specs"
+-D__PICOLIBC_ERRNO_FUNCTION=__errno
+-Wno-frame-address
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero
